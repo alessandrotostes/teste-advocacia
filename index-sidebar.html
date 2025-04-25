@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fulano Advocacia - Excelência Jurídica</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="sidebar-layout">
+    <!-- Menu Lateral -->
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <a href="index-sidebar.html">
+                <img src="images/logo.png" alt="Fulano Advocacia" class="sidebar-logo">
+            </a>
+        </div>
+        <ul class="sidebar-nav">
+            <li>
+                <a href="index-sidebar.html" class="nav-link active">Início</a>
+            </li>
+            <li>
+                <a href="#sobre" class="nav-link">Sobre</a>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Áreas de Atuação</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#civil">Direito Civil</a></li>
+                    <li><a class="dropdown-item" href="#criminal">Direito Criminal</a></li>
+                    <li><a class="dropdown-item" href="#trabalhista">Direito Trabalhista</a></li>
+                    <li><a class="dropdown-item" href="#consumidor">Direito do Consumidor</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#equipe" class="nav-link">Equipe</a>
+            </li>
+            <li>
+                <a href="contato-sidebar.html" class="nav-link">Contato</a>
+            </li>
+        </ul>
+        <div class="sidebar-footer">
+            <ul class="sidebar-contact">
+                <li><i class="fas fa-map-marker-alt"></i> Av. Paulista, 1000, São Paulo - SP</li>
+                <li><i class="fas fa-phone"></i> (11) 5555-5555</li>
+                <li><i class="fas fa-envelope"></i> contato@fulanoadvocacia.com.br</li>
+            </ul>
+            <div class="sidebar-social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h1 class="display-4 fw-bold text-white">FULANO ADVOCACIA</h1>
+                    <p class="lead text-white">Excelência e compromisso na defesa dos seus direitos</p>
+                    <a href="contato-sidebar.html" class="btn btn-primary btn-lg mt-3">Agende uma Consulta</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section id="sobre" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2 class="section-title">Sobre Nós</h2>
+                    <p class="lead">Tradição, excelência e compromisso com resultados.</p>
+                    <p>Fundado com o propósito de oferecer serviços jurídicos de excelência, o escritório Fulano Advocacia se destaca pela dedicação e comprometimento com os interesses de seus clientes.</p>
+                    <p>Nossa equipe é formada por profissionais altamente qualificados, com vasta experiência nas mais diversas áreas do Direito, prontos para oferecer soluções jurídicas personalizadas e eficientes.</p>
+                    <p>Acreditamos que cada caso é único e merece atenção especial. Por isso, trabalhamos com dedicação e empenho para garantir os melhores resultados para nossos clientes.</p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-image">
+                        <img src="images/about.jpg" alt="Sobre Fulano Advocacia" class="img-fluid rounded shadow">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Áreas de Atuação Section -->
+    <section id="areas" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Áreas de Atuação</h2>
+            <div class="row g-4">
+                <!-- Direito Civil -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 area-card">
+                        <div class="card-body text-center">
+                            <div class="icon-wrapper">
+                                <i class="fas fa-balance-scale fa-3x"></i>
+                            </div>
+                            <h3 class="card-title" id="civil">Direito Civil</h3>
+                            <p class="card-text">Assessoria jurídica em questões contratuais, responsabilidade civil, direito de família, sucessões e propriedade.</p>
+                            <a href="#" class="btn btn-outline-primary">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Direito Criminal -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 area-card">
+                        <div class="card-body text-center">
+                            <div class="icon-wrapper">
+                                <i class="fas fa-gavel fa-3x"></i>
+                            </div>
+                            <h3 class="card-title" id="criminal">Direito Criminal</h3>
+                            <p class="card-text">Defesa em processos criminais, habeas corpus, recursos e revisões criminais com estratégias personalizadas.</p>
+                            <a href="#" class="btn btn-outline-primary">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Direito Trabalhista -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 area-card">
+                        <div class="card-body text-center">
+                            <div class="icon-wrapper">
+                                <i class="fas fa-briefcase fa-3x"></i>
+                            </div>
+                            <h3 class="card-title" id="trabalhista">Direito Trabalhista</h3>
+                            <p class="card-text">Representação em reclamações trabalhistas, negociações coletivas e consultoria para empresas e empregados.</p>
+                            <a href="#" class="btn btn-outline-primary">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Direito do Consumidor -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 area-card">
+                        <div class="card-body text-center">
+                            <div class="icon-wrapper">
+                                <i class="fas fa-shopping-cart fa-3x"></i>
+                            </div>
+                            <h3 class="card-title" id="consumidor">Direito do Consumidor</h3>
+                            <p class="card-text">Proteção dos direitos do consumidor, ações contra empresas e reparação de danos por produtos ou serviços.</p>
+                            <a href="#" class="btn btn-outline-primary">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Equipe Section -->
+    <section id="equipe" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Nossa Equipe</h2>
+            <div class="row g-4">
+                <!-- Advogado 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card team-card">
+                        <img src="images/lawyer1.jpg" class="card-img-top" alt="Advogado">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Dr. Fulano Silva</h4>
+                            <p class="card-subtitle mb-2">Direito Civil e Consumidor</p>
+                            <p class="card-text">Especialista com mais de 15 anos de experiência, formado pela USP com pós-graduação em Direito Contratual.</p>
+                            <div class="social-icons">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="far fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Advogado 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card team-card">
+                        <img src="images/lawyer2.jpg" class="card-img-top" alt="Advogada">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Dra. Ciclana Oliveira</h4>
+                            <p class="card-subtitle mb-2">Direito Criminal</p>
+                            <p class="card-text">Especialista em Direito Penal com vasta experiência em casos complexos e formação pela PUC-RJ.</p>
+                            <div class="social-icons">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="far fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Advogado 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card team-card">
+                        <img src="images/lawyer3.jpg" class="card-img-top" alt="Advogado">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Dr. Beltrano Santos</h4>
+                            <p class="card-subtitle mb-2">Direito Trabalhista</p>
+                            <p class="card-text">Especialista em Direito do Trabalho e Previdenciário, com mestrado em Direito Social pela UFMG.</p>
+                            <div class="social-icons">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="far fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">O Que Dizem Nossos Clientes</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="testimonial-item text-center">
+                                    <div class="testimonial-content">
+                                        <p class="testimonial-text">"O atendimento do escritório Fulano Advocacia foi excepcional. Resolveram meu caso com profissionalismo e dedicação, superando todas as minhas expectativas."</p>
+                                        <h5 class="testimonial-author">Maria Silva</h5>
+                                        <p class="testimonial-position">Cliente desde 2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonial-item text-center">
+                                    <div class="testimonial-content">
+                                        <p class="testimonial-text">"Excelentes profissionais que me orientaram com clareza e objetividade. Graças à equipe do Fulano Advocacia, consegui resolver uma questão trabalhista que se arrastava há anos."</p>
+                                        <h5 class="testimonial-author">João Pereira</h5>
+                                        <p class="testimonial-position">Cliente desde 2021</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonial-item text-center">
+                                    <div class="testimonial-content">
+                                        <p class="testimonial-text">"Profissionais altamente qualificados e comprometidos. Recomendo o escritório Fulano Advocacia para qualquer questão jurídica, pois eles realmente se importam com seus clientes."</p>
+                                        <h5 class="testimonial-author">Ana Oliveira</h5>
+                                        <p class="testimonial-position">Cliente desde 2023</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Próximo</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="text-white">Precisa de Assistência Jurídica?</h2>
+                    <p class="lead text-white mb-4">Entre em contato conosco para uma consulta inicial e descubra como podemos ajudar no seu caso.</p>
+                    <a href="contato-sidebar.html" class="btn btn-light btn-lg">Fale Conosco</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img src="images/logo.png" alt="Fulano Advocacia" class="footer-logo mb-3">
+                    <p>Excelência e compromisso na defesa dos seus direitos desde 2010.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h4>Links Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="index-sidebar.html">Início</a></li>
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#areas">Áreas de Atuação</a></li>
+                        <li><a href="#equipe">Equipe</a></li>
+                        <li><a href="contato-sidebar.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h4>Contato</h4>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-map-marker-alt"></i> Av. Paulista, 1000, São Paulo - SP</li>
+                        <li><i class="fas fa-phone"></i> (11) 5555-5555</li>
+                        <li><i class="fas fa-envelope"></i> contato@fulanoadvocacia.com.br</li>
+                        <li><i class="fas fa-clock"></i> Segunda a Sexta: 9h às 18h</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="mt-4 mb-3">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="copyright">© 2025 Fulano Advocacia. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>

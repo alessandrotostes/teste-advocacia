@@ -1,0 +1,14 @@
+// Criação de um logo simples para Fulano Advocacia
+// Este arquivo SVG será usado como logo temporário até que o cliente forneça seu próprio logo
+
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="80" viewBox="0 0 200 80">
+  <style>
+    .logo-text { font-family: 'Playfair Display', serif; font-weight: bold; }
+    .tagline { font-family: 'Roboto', sans-serif; font-weight: 300; }
+  </style>
+  <rect width="200" height="80" fill="#8B0000" rx="5" ry="5"/>
+  <text x="100" y="35" fill="white" text-anchor="middle" class="logo-text" font-size="24">FULANO</text>
+  <text x="100" y="55" fill="white" text-anchor="middle" class="logo-text" font-size="18">ADVOCACIA</text>
+  <text x="100" y="70" fill="#f0f0f0" text-anchor="middle" class="tagline" font-size="10">EXCELÊNCIA JURÍDICA</text>
+  <path d="M30,30 L40,20 L50,30 L40,40 Z" fill="white" opacity="0.8"/>
+</svg>
