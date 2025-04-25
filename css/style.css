@@ -22,7 +22,7 @@ body {
   color: var(--text-color);
   line-height: 1.6;
   overflow-x: hidden;
-  padding-top: 76px; /* Espaço para o menu fixo no topo */
+  padding-top: 55px; /* Espaço para o menu fixo no topo */
 }
 
 h1,
