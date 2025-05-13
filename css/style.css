@@ -116,7 +116,7 @@ h6 {
 }
 
 .logo {
-  height: 50px;
+  height: 70px;
   width: auto;
 }
 
@@ -140,7 +140,7 @@ h6 {
 /* Hero Section */
 .hero-section {
   position: relative;
-  background: url("../images/lawyer-statue.webp") no-repeat center center;
+  background: url("../images/tribunal.jpg") no-repeat;
   background-size: cover;
   height: 80vh;
   min-height: 500px;
@@ -161,6 +161,8 @@ h6 {
 }
 
 .hero-section .container {
+  background-image: no-repeat center center;
+  background-size: cover;
   position: relative;
   z-index: 1;
 }
@@ -334,16 +336,14 @@ h6 {
 
 /* CTA Section */
 .cta-section {
-  background: linear-gradient(#0a0c45, #171a7a),
-    url("../images/cta-bg.jpg") no-repeat center center;
-  background-size: cover;
-  position: relative;
+  background: linear-gradient(#0a0c45, #171a7a);
 }
 
 /* Footer */
 .footer {
   background-color: var(--dark-color);
   color: var(--text-light);
+  background: linear-gradient(rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.884));
 }
 
 .footer-logo {
